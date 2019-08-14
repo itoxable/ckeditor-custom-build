@@ -1,0 +1,47 @@
+<!DOCTYPE  html>
+<html lang="en">
+  <head>
+    <!-- <meta charset="utf-8"> -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="../build/ckeditor.js" type="text/javascript" charset="utf-8"></script>
+
+  </head>
+	<body>
+  		<div id="editor">
+			Like all the great things on earth traveling teaches us by example. Here are some of the most precious lessons I’ve learned over the years of traveling.
+			<figure class="image image-style-side"><img src="https://images.hotukdeals.com/threads/thread_large/default/3275059_2.jpg"></figure>
+		</div>
+		
+		<script>
+			ClassicEditor
+				.create( document.getElementById( 'editor' ), {} )
+				.then( editor => {
+					window.editor = editor;
+				} )
+				.catch( err => {
+					console.error( err.stack );
+				} );
+				
+		/*const el = document.getElementById('editor');
+		const options = {
+
+	        toolbar: [
+	        	'heading', '|', 'bold', 'italic', 'link', 'alignment'
+	        ]
+		};
+		console.log(BalloonEditor.defaultConfig);
+		BalloonEditor.create(el, {})
+			.then( editor => {
+				console.log(Array.from( editor.ui.componentFactory.names() ));
+				editor.model.document.on( 'change:data', (e) => {
+				    <portlet:namespace />saveTextTimeout(editor.getData());
+				});
+				window.editor = editor;
+			}).catch( err => {
+				console.error( err.stack );
+			});*/
+	
+</script>
+  	</body>
+</html>
