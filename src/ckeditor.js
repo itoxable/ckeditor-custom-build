@@ -189,12 +189,11 @@ ClassicEditor.defaultConfig = {
 			'numberedList',
 			'dbyImageSelector',
 			'blockQuote',
-			'removeFormat',
 			'insertTable',
-			//'pasteFromOffice',
 			'mediaEmbed',
 			'undo',
-			'redo'
+			'redo',
+			'removeFormat'
 		]
 	},
 	image: {
